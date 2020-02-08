@@ -1,0 +1,612 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+html {
+  overflow-x: hidden;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+.headerMain {
+  background: url(../img/header/bgHeader.jpg) no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  width: auto;
+  color: white;
+  padding-top: 30px;
+}
+.headerMain .headerNav {
+  text-align: center;
+  line-height: 100%;
+}
+.headerMain .headerNav a {
+  text-decoration: none;
+  color: white;
+}
+.headerMain .headerNav .burger {
+  position: absolute;
+  margin-top: -7%;
+  left: 0%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: 1s;
+}
+.headerMain .headerNav .burger span,
+.headerMain .headerNav .burger span::before,
+.headerMain .headerNav .burger span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -1px;
+  height: 2px;
+  width: 24px;
+  background-color: rgba(0, 0, 0, 0.9);
+  content: "";
+}
+.headerMain .headerNav .burger span::before,
+.headerMain .headerNav .burger span::after {
+  content: "";
+}
+.headerMain .headerNav .burger span::before {
+  margin-top: -7px;
+}
+.headerMain .headerNav .burger span::after {
+  margin-top: 5px;
+}
+.headerName {
+  text-align-last: left;
+  font-size: 24px;
+  color: #BEA67C;
+}
+.headerTitle {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.headerTitle .title {
+  color: #BEA67C;
+  font-size: 100px;
+  font-weight: 500;
+  letter-spacing: 10px;
+  margin-left: -50px;
+}
+.headerButton {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.headerButton button {
+  height: 60px;
+  width: 310px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 24px;
+  transition: 1s;
+  outline: none;
+  transition: .5s;
+}
+.items {
+  position: relative;
+  margin-top: 100px;
+}
+.itemsFurniture {
+  margin-top: 90px;
+}
+.itemsFurnitureText {
+  margin-top: 160px;
+}
+.itemsFurnitureText h1 {
+  font-weight: 900;
+  text-align: center;
+}
+.itemsFurniture .textBgOne {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  color: #BEA67C;
+  font-weight: bold;
+  font-size: 72px;
+  opacity: .3;
+  user-select: none;
+}
+.itemsFurniture .textBgTwo {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: #BEA67C;
+  font-weight: bold;
+  font-size: 102px;
+  opacity: .3;
+  writing-mode: tb-rl;
+  user-select: none;
+}
+.itemsFurniture .textBgThree {
+  position: absolute;
+  top: 40%;
+  left: 65%;
+  color: #bea67c;
+  font-weight: bold;
+  font-size: 400px;
+  opacity: .3;
+  user-select: none;
+}
+.quality {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+}
+.quality h1 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.quality .line {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #BEA67C;
+  width: 50px;
+  height: 5px;
+}
+.qualityText {
+  text-align: center;
+  font-size: 16px;
+}
+.quality .circle {
+  position: relative;
+}
+.quality .circle .circleBorder {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 280px;
+  height: 280px;
+  border: 2px solid rgba(192, 192, 192, 0.5);
+  border-radius: 50%;
+}
+.quality .circle .circleBorder .circlePlay {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: rgba(190, 166, 124, 0.5);
+  border-radius: 50%;
+}
+.quality .circle .circleBorder .circlePlay img {
+  margin-left: 3px;
+}
+.quality .circle .circleBorder img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.quality .circle .subtitle {
+  padding-top: 100px;
+}
+.complexity {
+  background: url(../img/complexity/bg.png) center center no-repeat;
+  background-size: cover;
+  min-height: 900px;
+  margin-top: 100px;
+  position: relative;
+}
+.complexity .circle {
+  background: url(../img/complexity/play.png);
+}
+.complexity .container {
+  padding: 100px 0;
+}
+.complexity .rectangle {
+  height: 700px;
+  width: 1560px;
+  position: relative;
+  border: 2px solid #BEA67C;
+}
+.complexity .rectangle h1 {
+  margin-top: 210px;
+  font-weight: 600;
+  color: #BEA67C;
+  margin-bottom: 50px;
+}
+.complexity .rectangle span {
+  color: white;
+  font-size: 15px;
+}
+.complexity .rectangle button {
+  position: relative;
+  width: 310px;
+  height: 50px;
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px solid white;
+  border-radius: 2px;
+  color: white;
+}
+.complexity .rectangle button .circleBtnPlay {
+  position: absolute;
+  left: 65px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.about {
+  margin-bottom: 140px;
+}
+.about .text {
+  margin-top: 240px;
+}
+.about img {
+  margin-top: 140px;
+}
+.about h2 {
+  font-weight: 900;
+}
+.about span {
+  font-weight: 900;
+}
+.footer {
+  height: 70px;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+}
+@media (max-width: 1199px) {
+  .headerButton {
+    margin-top: 70px;
+  }
+  .items {
+    margin: 0;
+    text-align: center;
+  }
+  .items .textBgOne {
+    display: none;
+  }
+  .itemsFurniture {
+    margin: 0;
+    margin-top: 50px;
+  }
+  .itemsFurnitureText {
+    margin: 100px 0;
+  }
+  .quality h1 {
+    font-size: 52px;
+  }
+  .quality span {
+    font-size: 22px;
+  }
+  .quality .line {
+    display: none;
+  }
+  .quality .subtitle {
+    font-size: 26px;
+  }
+  .complexity {
+    text-align: center;
+  }
+  .complexity h1 {
+    font-size: 52px;
+  }
+  .complexity span {
+    font-size: 22px;
+  }
+  .complexity .rectangle button {
+    width: 350px;
+    height: 80px;
+    font-size: 20px;
+  }
+  .about {
+    text-align: center;
+  }
+  .about h1 {
+    font-size: 52px;
+  }
+  .about img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .headerMain {
+    text-align: center;
+    height: 400px;
+  }
+  .headerMain .title {
+    font-size: 70px;
+    margin: 0;
+    margin-top: -100px;
+  }
+  .headerMain .headerNav {
+    text-align: center;
+  }
+  .headerMain .headerButton {
+    margin-top: -80px;
+  }
+  .items {
+    margin: 0;
+    text-align: center;
+  }
+  .items .lang {
+    display: none;
+  }
+  .items .textBgOne {
+    display: none;
+  }
+  .itemsFurniture {
+    margin: 0;
+    margin-top: 50px;
+  }
+  .itemsFurnitureText {
+    margin: 100px 0;
+  }
+  .itemsFurniture img {
+    max-width: 100%;
+  }
+  .quality h1 {
+    font-size: 52px;
+  }
+  .quality span {
+    font-size: 22px;
+  }
+  .quality .line {
+    display: none;
+  }
+  .quality .subtitle {
+    font-size: 26px;
+  }
+  .complexity {
+    text-align: center;
+  }
+  .complexity h1 {
+    font-size: 52px;
+  }
+  .complexity .rectangle {
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .complexity .rectangle h1 {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .complexity .rectangle button {
+    width: 350px;
+    height: 80px;
+    font-size: 20px;
+  }
+  .complexity .rectangle span {
+    font-size: 18px;
+  }
+  .about {
+    text-align: center;
+  }
+  .about .text {
+    margin-top: 170px;
+  }
+  .about h1 {
+    font-size: 52px;
+  }
+  .about img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .headerMain {
+    text-align: center;
+    height: 500px;
+  }
+  .headerMain .title {
+    font-size: 70px;
+    margin: 0;
+    margin-top: -100px;
+  }
+  .headerMain .headerNav {
+    text-align: center;
+  }
+  .headerMain .headerButton {
+    margin-top: -80px;
+  }
+  .items {
+    margin: 0;
+    text-align: center;
+  }
+  .items .lang {
+    display: none;
+  }
+  .items .textBgOne {
+    display: none;
+  }
+  .items h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  .items span {
+    font-size: 14px;
+  }
+  .itemsFurniture {
+    margin: 0;
+    margin-top: 50px;
+  }
+  .itemsFurnitureText {
+    margin: 0 0;
+  }
+  .itemsFurniture img {
+    max-width: 100%;
+  }
+  .itemsFurniture .textBgThree {
+    display: none;
+  }
+  .quality h1 {
+    font-size: 32px;
+  }
+  .quality span {
+    font-size: 16px;
+  }
+  .quality .line {
+    display: none;
+  }
+  .quality .subtitle {
+    font-size: 18px;
+  }
+  .complexity {
+    text-align: center;
+  }
+  .complexity h1 {
+    font-size: 52px;
+  }
+  .complexity .rectangle {
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .complexity .rectangle h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  .complexity .rectangle button {
+    width: 350px;
+    height: 80px;
+    font-size: 20px;
+  }
+  .complexity .rectangle span {
+    font-size: 16px;
+  }
+  .about {
+    text-align: center;
+  }
+  .about .text {
+    margin-top: 150px;
+    font-size: 14px;
+  }
+  .about .text h2 {
+    font-size: 22px;
+  }
+  .about img {
+    max-width: 100%;
+  }
+  .footer {
+    line-height: auto;
+    font-size: 12px;
+  }
+}
+@media (max-width: 575px) {
+  .headerMain {
+    text-align: center;
+    height: 380px;
+  }
+  .headerMain .title {
+    font-size: 60px;
+    margin: 0;
+    margin-top: -100px;
+  }
+  .headerMain .headerNav {
+    text-align: center;
+  }
+  .headerMain .headerButton {
+    margin-top: -110px;
+  }
+  .items {
+    margin: 0;
+    text-align: center;
+  }
+  .items .lang {
+    display: none;
+  }
+  .items .textBgOne {
+    display: none;
+  }
+  .items h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  .items span {
+    font-size: 14px;
+  }
+  .itemsFurniture {
+    margin: 0;
+    margin-top: 50px;
+  }
+  .itemsFurnitureText {
+    margin: 0 0;
+  }
+  .itemsFurniture img {
+    max-width: 100%;
+  }
+  .itemsFurniture .textBgThree {
+    display: none;
+  }
+  .quality h1 {
+    font-size: 32px;
+  }
+  .quality span {
+    font-size: 16px;
+  }
+  .quality .line {
+    display: none;
+  }
+  .quality .subtitle {
+    font-size: 18px;
+  }
+  .complexity {
+    text-align: center;
+    min-height: 500px;
+  }
+  .complexity h1 {
+    font-size: 52px;
+  }
+  .complexity .rectangle {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .complexity .rectangle h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  .complexity .rectangle button {
+    width: 350px;
+    height: 80px;
+    font-size: 20px;
+  }
+  .complexity .rectangle span {
+    font-size: 16px;
+  }
+  .about {
+    text-align: center;
+  }
+  .about .text {
+    margin-top: 150px;
+    font-size: 14px;
+  }
+  .about .text h2 {
+    font-size: 18px;
+  }
+  .about img {
+    max-width: 100%;
+  }
+  .footer {
+    line-height: auto;
+    font-size: 12px;
+  }
+}

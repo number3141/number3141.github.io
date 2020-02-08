@@ -1,0 +1,661 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+html {
+overflow-x: hidden;
+}
+// Первая секция 
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.headerMain {
+  background: url(../img/header/bgHeader.jpg) no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  width: auto;
+  color: white;
+  padding-top: 30px;
+  .headerNav {
+    text-align: center;
+    line-height: 100%;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    .burger {
+      position: absolute;
+      margin-top: -7%;
+      left: 0%;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #fff;
+      transition: 1s;
+      span,
+      span::before,
+      span::after 
+      {
+        position: absolute;
+        top: 50%;
+        left: 50%; 
+        transform: translateX(-50%);
+        margin-top: -1px;
+        height: 2px;
+        width: 24px;
+        background-color: rgba(0, 0, 0, .9);
+        content: "";
+      }
+      span::before,
+      span::after {
+        content: "";
+      }
+      span::before {
+        margin-top: -7px;
+      }
+      span::after{
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+
+.headerName {
+  text-align-last: left;
+  font-size: 24px;
+  color: #BEA67C;
+}
+
+.headerTitle {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  .title {
+    color: #BEA67C;
+    font-size: 100px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    margin-left: -50px;
+  }
+}
+
+.headerButton {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  button {
+    height: 60px;
+    width: 310px;
+    background-color: rgba(0, 0, 0, .1);
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 24px;
+    transition: 1s;
+    outline: none;
+    transition: .5s;
+  }
+}
+
+
+// Вторая секция 
+
+.items {
+  position: relative;
+  margin-top: 100px;
+  &Furniture{
+    margin-top: 90px;
+    &Text {
+      margin-top: 160px;
+      h1 {
+        text-align: center;
+      font-weight: 900;
+      text-align: center;
+      }
+    }
+    .textBgOne {
+      position: absolute;
+      top: 10%;
+      left: 80%;
+      color: #BEA67C;
+      font-weight: bold;
+      font-size: 72px;
+      opacity: .3;
+      user-select: none;
+    }
+    .textBgTwo {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      color: #BEA67C;
+      font-weight: bold;
+      font-size: 102px;
+      opacity: .3;
+      writing-mode: tb-rl;
+      user-select: none;
+    }
+    .textBgThree {
+      position: absolute;
+      top: 40%;
+      left: 65%;
+      color: rgb(190, 166, 124);
+      font-weight: bold;
+      font-size: 400px;
+      opacity: .3;
+      user-select: none;
+    }
+  }
+}
+
+
+// Третья секция (quality)
+
+.quality {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  h1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .line {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #BEA67C;
+    width: 50px;
+    height: 5px;
+  }
+  &Text{
+    text-align: center;
+    font-size: 16px;
+  }
+  .circle {
+    position: relative;
+    .circleBorder {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+      width: 280px;
+      height: 280px;
+      border: 2px solid rgba(192, 192, 192, .5);
+      border-radius: 50%;
+      .circlePlay {
+        position: relative;
+        width: 70px;
+        height: 70px;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        background: rgba(190, 166, 124, .5);
+        border-radius: 50%;
+        img {
+          margin-left: 3px;
+        }
+      }
+      img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+      }
+    }
+    .subtitle {
+      padding-top: 100px;
+    }
+  }
+}
+
+// Четвёртая секция 
+
+.complexity {
+  background: url(../img/complexity/bg.png) center center no-repeat;
+  background-size: cover;
+  min-height: 900px;
+  margin-top: 100px;
+  position: relative;
+  .circle {
+    background: url(../img/complexity/play.png);
+  }
+  .container {
+    padding: 100px 0;
+  }
+  .rectangle {
+    height: 700px;
+    width: 1560px;
+    position: relative;
+    border: 2px solid #BEA67C;
+    h1 {
+      margin-top: 210px;
+      font-weight: 600;
+      color: #BEA67C;
+      margin-bottom: 50px;
+    }
+    span {
+      color: white;
+      font-size: 15px;
+    }
+    button {
+      position: relative;
+      width: 310px;
+      height: 50px;
+      margin-top: 50px;
+      background-color: rgba(0, 0, 0, .1);
+      border: 2px solid white;
+      border-radius: 2px;
+      color: white;
+      .circleBtnPlay {
+        position: absolute;
+        left: 65px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+// Пятая секция 
+
+.about {
+  margin-bottom: 140px;
+  .text {
+    margin-top: 240px;
+  }
+  img {
+    margin-top: 140px;
+  }
+  h2 {
+    font-weight: 900;
+  }
+  span {
+    font-weight: 900;
+  }
+}
+
+// Подвал
+
+.footer {
+  height: 70px;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+}
+
+// Адаптив 
+
+@media (max-width: 1199px) {
+  .headerButton {
+    margin-top: 70px;
+  }
+  .items {
+    margin: 0;
+    text-align: center;
+    .textBgOne {
+      display: none;
+    }
+    &Furniture {
+      margin: 0;
+      margin-top: 50px;
+      &Text{
+        margin: 100px 0;
+      }
+    }
+  }
+  .quality {
+    h1 {
+      font-size: 52px;
+    }
+    span {
+      font-size: 22px;
+    }
+    .line {
+      display: none;
+    }
+    .subtitle {
+      font-size: 26px;
+    }
+  }
+  .complexity {
+    text-align: center;
+    h1 {
+      font-size: 52px;
+    }
+    span {
+      font-size: 22px;
+    }
+    .rectangle {
+      button {
+        width: 350px;
+        height: 80px;
+        font-size: 20px;
+      }
+    }
+  }
+  .about {
+    text-align: center;
+    h1 {
+      font-size: 52px;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .headerMain{
+    text-align: center;
+    height: 400px;
+    .title {
+      font-size: 70px;
+      margin: 0;
+      margin-top: -100px;
+    }
+    .headerNav{
+      text-align: center;
+    }
+    .headerButton {
+      margin-top: -80px;
+    }
+  }
+  .items {
+    margin: 0;
+    text-align: center;
+    .lang {
+      display: none;
+    }
+    .textBgOne {
+      display: none;
+    }
+    &Furniture {
+      margin: 0;
+      margin-top: 50px;
+      &Text{
+        margin: 100px 0;
+      }
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  .quality {
+    h1 {
+      font-size: 52px;
+    }
+    span {
+      font-size: 22px;
+    }
+    .line {
+      display: none;
+    }
+    .subtitle {
+      font-size: 26px;
+    }
+  }
+  .complexity {
+    text-align: center;
+    h1 {
+      font-size: 52px;
+    }
+    .rectangle {
+      height: auto;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      h1 {
+        margin: 0;
+        margin-bottom: 20px;
+      }
+      button {
+        width: 350px;
+        height: 80px;
+        font-size: 20px;
+      }
+      span {
+        font-size: 18px;
+      }
+    }
+  }
+  .about {
+    text-align: center;
+    .text {
+      margin-top: 170px;
+    }
+    h1 {
+      font-size: 52px;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+@media(max-width: 767px){
+  .headerMain{
+    text-align: center;
+    height: 500px;
+    .title {
+      font-size: 70px;
+      margin: 0;
+      margin-top: -100px;
+    }
+    .headerNav{
+      text-align: center;
+    }
+    .headerButton {
+      margin-top: -80px;
+    }
+  }
+  .items {
+    margin: 0;
+    text-align: center;
+    .lang {
+      display: none;
+    }
+    .textBgOne {
+      display: none;
+    }
+    h1 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+    span {
+      font-size: 14px;
+    }
+    &Furniture {
+      margin: 0;
+      margin-top: 50px;
+      &Text{
+        margin: 0 0;
+      }
+      img {
+        max-width: 100%;
+      }
+      .textBgThree {
+        display: none;
+      }
+    }
+  }
+  .quality {
+    h1 {
+      font-size: 32px;
+    }
+    span {
+      font-size: 16px;
+    }
+    .line {
+      display: none;
+    }
+    .subtitle {
+      font-size: 18px;
+    }
+  }
+  .complexity {
+    text-align: center;
+    h1 {
+      font-size: 52px;
+    }
+    .rectangle {
+      height: auto;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      h1 {
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 32px;
+      }
+      button {
+        width: 350px;
+        height: 80px;
+        font-size: 20px;
+      }
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+  .about {
+    text-align: center;
+    .text {
+      margin-top: 150px;
+      font-size: 14px;
+      h2 {
+        font-size: 22px;
+      }
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+  .footer {
+    line-height: auto;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  .headerMain{
+    text-align: center;
+    height: 380px;
+    .title {
+      font-size: 60px;
+      margin: 0;
+      margin-top: -100px;
+    }
+    .headerNav{
+      text-align: center;
+    }
+    .headerButton {
+      margin-top: -110px;
+    }
+  }
+  .items {
+    margin: 0;
+    text-align: center;
+    .lang {
+      display: none;
+    }
+    .textBgOne {
+      display: none;
+    }
+    h1 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+    span {
+      font-size: 14px;
+    }
+    &Furniture {
+      margin: 0;
+      margin-top: 50px;
+      &Text{
+        margin: 0 0;
+      }
+      img {
+        max-width: 100%;
+      }
+      .textBgThree {
+        display: none;
+      }
+    }
+  }
+  .quality {
+    h1 {
+      font-size: 32px;
+    }
+    span {
+      font-size: 16px;
+    }
+    .line {
+      display: none;
+    }
+    .subtitle {
+      font-size: 18px;
+    }
+  }
+  .complexity {
+    text-align: center;
+    min-height: 500px;
+    h1 {
+      font-size: 52px;
+    }
+    .rectangle {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      width: 90%;
+      margin-left: 5%;
+      h1 {
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 32px;
+      }
+      button {
+        width: 350px;
+        height: 80px;
+        font-size: 20px;
+      }
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+  .about {
+    text-align: center;
+    .text {
+      margin-top: 150px;
+      font-size: 14px;
+      h2 {
+        font-size: 18px;
+      }
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+  .footer {
+    line-height: auto;
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+
