@@ -510,10 +510,13 @@ html {
 @media (max-width: 575px) {
   .headerMain {
     text-align: center;
-    height: 380px;
+    height: 280px;
+  }
+  .headerMain a {
+    font-size: 14px;
   }
   .headerMain .title {
-    font-size: 60px;
+    font-size: 34px;
     margin: 0;
     margin-top: -100px;
   }
@@ -521,7 +524,12 @@ html {
     text-align: center;
   }
   .headerMain .headerButton {
-    margin-top: -110px;
+    margin-top: -150px;
+  }
+  .headerMain .headerButton button {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
   }
   .items {
     margin: 0;
@@ -536,7 +544,7 @@ html {
   .items h1 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 18px;
   }
   .items span {
     font-size: 14px;
@@ -544,9 +552,11 @@ html {
   .itemsFurniture {
     margin: 0;
     margin-top: 50px;
+    text-align: center;
   }
   .itemsFurnitureText {
     margin: 0 0;
+    margin-bottom: 20px;
   }
   .itemsFurniture img {
     max-width: 100%;
@@ -554,8 +564,12 @@ html {
   .itemsFurniture .textBgThree {
     display: none;
   }
+  .itemsDecor {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   .quality h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
   .quality span {
     font-size: 16px;
@@ -585,18 +599,29 @@ html {
     font-size: 32px;
   }
   .complexity .rectangle button {
-    width: 350px;
-    height: 80px;
+    width: 250px;
+    height: 60px;
     font-size: 20px;
+  }
+  .complexity .rectangle button .circleBtnPlay {
+    display: none;
   }
   .complexity .rectangle span {
     font-size: 16px;
   }
   .about {
     text-align: center;
+    height: 550px;
+    margin-bottom: 0;
+  }
+  .aboutItem {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
   }
   .about .text {
-    margin-top: 150px;
+    margin-top: 80px;
     font-size: 14px;
   }
   .about .text h2 {
@@ -604,6 +629,7 @@ html {
   }
   .about img {
     max-width: 100%;
+    margin-top: 30px;
   }
   .footer {
     line-height: auto;

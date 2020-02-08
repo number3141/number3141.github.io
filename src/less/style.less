@@ -1,9 +1,11 @@
 * {
   font-family: 'Raleway', sans-serif;
 }
+
 html {
-overflow-x: hidden;
+  overflow-x: hidden;
 }
+
 // Первая секция 
 .row {
   margin: 0;
@@ -17,13 +19,16 @@ overflow-x: hidden;
   width: auto;
   color: white;
   padding-top: 30px;
+
   .headerNav {
     text-align: center;
     line-height: 100%;
+
     a {
       text-decoration: none;
       color: white;
     }
+
     .burger {
       position: absolute;
       margin-top: -7%;
@@ -33,13 +38,13 @@ overflow-x: hidden;
       border-radius: 50%;
       background-color: #fff;
       transition: 1s;
+
       span,
       span::before,
-      span::after 
-      {
+      span::after {
         position: absolute;
         top: 50%;
-        left: 50%; 
+        left: 50%;
         transform: translateX(-50%);
         margin-top: -1px;
         height: 2px;
@@ -47,14 +52,17 @@ overflow-x: hidden;
         background-color: rgba(0, 0, 0, .9);
         content: "";
       }
+
       span::before,
       span::after {
         content: "";
       }
+
       span::before {
         margin-top: -7px;
       }
-      span::after{
+
+      span::after {
         margin-top: 5px;
       }
     }
@@ -76,6 +84,7 @@ overflow-x: hidden;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+
   .title {
     color: #BEA67C;
     font-size: 100px;
@@ -93,6 +102,7 @@ overflow-x: hidden;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+
   button {
     height: 60px;
     width: 310px;
@@ -113,16 +123,20 @@ overflow-x: hidden;
 .items {
   position: relative;
   margin-top: 100px;
-  &Furniture{
+
+  &Furniture {
     margin-top: 90px;
+
     &Text {
       margin-top: 160px;
+
       h1 {
         text-align: center;
-      font-weight: 900;
-      text-align: center;
+        font-weight: 900;
+        text-align: center;
       }
     }
+
     .textBgOne {
       position: absolute;
       top: 10%;
@@ -133,6 +147,7 @@ overflow-x: hidden;
       opacity: .3;
       user-select: none;
     }
+
     .textBgTwo {
       position: absolute;
       top: 10%;
@@ -144,6 +159,7 @@ overflow-x: hidden;
       writing-mode: tb-rl;
       user-select: none;
     }
+
     .textBgThree {
       position: absolute;
       top: 40%;
@@ -164,10 +180,12 @@ overflow-x: hidden;
   position: relative;
   margin-top: 100px;
   text-align: center;
+
   h1 {
     margin-top: 10px;
     margin-bottom: 30px;
   }
+
   .line {
     position: absolute;
     top: 13%;
@@ -177,12 +195,15 @@ overflow-x: hidden;
     width: 50px;
     height: 5px;
   }
-  &Text{
+
+  &Text {
     text-align: center;
     font-size: 16px;
   }
+
   .circle {
     position: relative;
+
     .circleBorder {
       position: relative;
       top: 50%;
@@ -192,6 +213,7 @@ overflow-x: hidden;
       height: 280px;
       border: 2px solid rgba(192, 192, 192, .5);
       border-radius: 50%;
+
       .circlePlay {
         position: relative;
         width: 70px;
@@ -201,17 +223,20 @@ overflow-x: hidden;
         transform: translateX(-50%) translateY(-50%);
         background: rgba(190, 166, 124, .5);
         border-radius: 50%;
+
         img {
           margin-left: 3px;
         }
       }
-      img{
+
+      img {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
       }
     }
+
     .subtitle {
       padding-top: 100px;
     }
@@ -226,27 +251,33 @@ overflow-x: hidden;
   min-height: 900px;
   margin-top: 100px;
   position: relative;
+
   .circle {
     background: url(../img/complexity/play.png);
   }
+
   .container {
     padding: 100px 0;
   }
+
   .rectangle {
     height: 700px;
     width: 1560px;
     position: relative;
     border: 2px solid #BEA67C;
+
     h1 {
       margin-top: 210px;
       font-weight: 600;
       color: #BEA67C;
       margin-bottom: 50px;
     }
+
     span {
       color: white;
       font-size: 15px;
     }
+
     button {
       position: relative;
       width: 310px;
@@ -256,6 +287,7 @@ overflow-x: hidden;
       border: 2px solid white;
       border-radius: 2px;
       color: white;
+
       .circleBtnPlay {
         position: absolute;
         left: 65px;
@@ -270,15 +302,19 @@ overflow-x: hidden;
 
 .about {
   margin-bottom: 140px;
+
   .text {
     margin-top: 240px;
   }
+
   img {
     margin-top: 140px;
   }
+
   h2 {
     font-weight: 900;
   }
+
   span {
     font-weight: 900;
   }
@@ -300,42 +336,54 @@ overflow-x: hidden;
   .headerButton {
     margin-top: 70px;
   }
+
   .items {
     margin: 0;
     text-align: center;
+
     .textBgOne {
       display: none;
     }
+
     &Furniture {
       margin: 0;
       margin-top: 50px;
-      &Text{
+
+      &Text {
         margin: 100px 0;
       }
     }
   }
+
   .quality {
     h1 {
       font-size: 52px;
     }
+
     span {
       font-size: 22px;
     }
+
     .line {
       display: none;
     }
+
     .subtitle {
       font-size: 26px;
     }
   }
+
   .complexity {
     text-align: center;
+
     h1 {
       font-size: 52px;
     }
+
     span {
       font-size: 22px;
     }
+
     .rectangle {
       button {
         width: 350px;
@@ -344,11 +392,14 @@ overflow-x: hidden;
       }
     }
   }
+
   .about {
     text-align: center;
+
     h1 {
       font-size: 52px;
     }
+
     img {
       max-width: 100%;
     }
@@ -356,190 +407,240 @@ overflow-x: hidden;
 }
 
 @media (max-width: 991px) {
-  .headerMain{
+  .headerMain {
     text-align: center;
     height: 400px;
+
     .title {
       font-size: 70px;
       margin: 0;
       margin-top: -100px;
     }
-    .headerNav{
+
+    .headerNav {
       text-align: center;
     }
+
     .headerButton {
       margin-top: -80px;
     }
   }
+
   .items {
     margin: 0;
     text-align: center;
+
     .lang {
       display: none;
     }
+
     .textBgOne {
       display: none;
     }
+
     &Furniture {
       margin: 0;
       margin-top: 50px;
-      &Text{
+
+      &Text {
         margin: 100px 0;
       }
+
       img {
         max-width: 100%;
       }
     }
   }
+
   .quality {
     h1 {
       font-size: 52px;
     }
+
     span {
       font-size: 22px;
     }
+
     .line {
       display: none;
     }
+
     .subtitle {
       font-size: 26px;
     }
   }
+
   .complexity {
     text-align: center;
+
     h1 {
       font-size: 52px;
     }
+
     .rectangle {
       height: auto;
       padding-top: 80px;
       padding-bottom: 80px;
+
       h1 {
         margin: 0;
         margin-bottom: 20px;
       }
+
       button {
         width: 350px;
         height: 80px;
         font-size: 20px;
       }
+
       span {
         font-size: 18px;
       }
     }
   }
+
   .about {
     text-align: center;
+
     .text {
       margin-top: 170px;
     }
+
     h1 {
       font-size: 52px;
     }
+
     img {
       max-width: 100%;
     }
   }
 }
 
-@media(max-width: 767px){
-  .headerMain{
+@media(max-width: 767px) {
+  .headerMain {
     text-align: center;
     height: 500px;
+
     .title {
       font-size: 70px;
       margin: 0;
       margin-top: -100px;
     }
-    .headerNav{
+
+    .headerNav {
       text-align: center;
     }
+
     .headerButton {
       margin-top: -80px;
     }
   }
+
   .items {
     margin: 0;
     text-align: center;
+
     .lang {
       display: none;
     }
+
     .textBgOne {
       display: none;
     }
+
     h1 {
       margin-top: 10px;
       margin-bottom: 10px;
       font-size: 22px;
     }
+
     span {
       font-size: 14px;
     }
+
     &Furniture {
       margin: 0;
       margin-top: 50px;
-      &Text{
+
+      &Text {
         margin: 0 0;
       }
+
       img {
         max-width: 100%;
       }
+
       .textBgThree {
         display: none;
       }
     }
   }
+
   .quality {
     h1 {
       font-size: 32px;
     }
+
     span {
       font-size: 16px;
     }
+
     .line {
       display: none;
     }
+
     .subtitle {
       font-size: 18px;
     }
   }
+
   .complexity {
     text-align: center;
+
     h1 {
       font-size: 52px;
     }
+
     .rectangle {
       height: auto;
       padding-top: 80px;
       padding-bottom: 80px;
+
       h1 {
         margin: 0;
         margin-bottom: 20px;
         font-size: 32px;
       }
+
       button {
         width: 350px;
         height: 80px;
         font-size: 20px;
       }
+
       span {
         font-size: 16px;
       }
     }
   }
+
   .about {
     text-align: center;
+
     .text {
       margin-top: 150px;
       font-size: 14px;
+
       h2 {
         font-size: 22px;
       }
     }
+
     img {
       max-width: 100%;
     }
   }
+
   .footer {
     line-height: auto;
     font-size: 12px;
@@ -547,115 +648,165 @@ overflow-x: hidden;
 }
 
 @media (max-width: 575px) {
-  .headerMain{
+  .headerMain {
     text-align: center;
-    height: 380px;
+    height: 280px;
+
+    a {
+      font-size: 14px;
+    }
+
     .title {
-      font-size: 60px;
+      font-size: 34px;
       margin: 0;
       margin-top: -100px;
     }
-    .headerNav{
+
+    .headerNav {
       text-align: center;
     }
+
     .headerButton {
-      margin-top: -110px;
+      margin-top: -150px;
+
+      button {
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+      }
     }
   }
+
   .items {
     margin: 0;
     text-align: center;
+
     .lang {
       display: none;
     }
+
     .textBgOne {
       display: none;
     }
+
     h1 {
       margin-top: 10px;
       margin-bottom: 10px;
-      font-size: 22px;
+      font-size: 18px;
     }
+
     span {
       font-size: 14px;
     }
+
     &Furniture {
       margin: 0;
       margin-top: 50px;
-      &Text{
+      text-align: center;
+
+      &Text {
         margin: 0 0;
+        margin-bottom: 20px;
       }
+
       img {
         max-width: 100%;
       }
+
       .textBgThree {
         display: none;
       }
     }
+
+    &Decor {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
+
   .quality {
     h1 {
-      font-size: 32px;
+      font-size: 28px;
     }
+
     span {
       font-size: 16px;
     }
+
     .line {
       display: none;
     }
+
     .subtitle {
       font-size: 18px;
     }
   }
+
   .complexity {
     text-align: center;
     min-height: 500px;
+
     h1 {
       font-size: 52px;
     }
+
     .rectangle {
       padding-top: 80px;
       padding-bottom: 80px;
       width: 90%;
       margin-left: 5%;
+
       h1 {
         margin: 0;
         margin-bottom: 20px;
         font-size: 32px;
       }
+
       button {
-        width: 350px;
-        height: 80px;
+        width: 250px;
+        height: 60px;
         font-size: 20px;
+
+        .circleBtnPlay {
+          display: none;
+        }
       }
+
       span {
         font-size: 16px;
       }
     }
   }
+
   .about {
     text-align: center;
+    height: 550px;
+    margin-bottom: 0;
+
+    &Item {
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 0;
+      padding: 0;
+    }
+
     .text {
-      margin-top: 150px;
+      margin-top: 80px;
       font-size: 14px;
+
       h2 {
         font-size: 18px;
       }
     }
+
     img {
       max-width: 100%;
+      margin-top: 30px;
     }
   }
+
   .footer {
     line-height: auto;
     font-size: 12px;
   }
 }
-
-
-
-
-
-
-
-
