@@ -564,6 +564,9 @@ html {
   .itemsFurniture .textBgThree {
     display: none;
   }
+  .itemsFurniture .textBgTwo {
+    font-size: 56px;
+  }
   .itemsDecor {
     display: flex;
     flex-direction: column-reverse;
