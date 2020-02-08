@@ -565,7 +565,7 @@ html {
     display: none;
   }
   .itemsFurniture .textBgTwo {
-    font-size: 56px;
+    display: none;
   }
   .itemsDecor {
     display: flex;
