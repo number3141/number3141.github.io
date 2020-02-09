@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
   let topBlock = quality.getBoundingClientRect();
   let ans = topBlock.top - 80;
 
-  console.log(topBlock.top);
-
   learnBtn.addEventListener('click', function (event) {
     event.target.style.backgroundColor = 'white';
     event.target.style.marginLeft = 50 + '%';
