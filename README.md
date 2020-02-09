@@ -26,6 +26,10 @@
 
 5 - **Версия 1.2**  
 Список изменений:  
+* *Оптимизированы изображения, что повышает скорость загрузки сайта*  
+
+6 - **Версия 1.2.1**  
+Список изменений:  
 * *Оптимизированы изображения, что повышает скорость загрузки сайта*
 
 -------------------------------------------------------------
@@ -55,6 +59,10 @@ List of changes:
 * *Minor improvements to the visual design*  
 
 5 - **Version 1.2**  
+List of changes:  
+* *Optimized images, which increases the speed of loading the site*  
+
+6 - **Version 1.2.1**  
 List of changes:  
 * *Optimized images, which increases the speed of loading the site*
 
