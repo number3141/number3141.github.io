@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function scrollWindow(){
       ind += 6;
-      console.log(ind);
       window.scrollTo(0, ind);
       if(ind >= ans){
         clearTimeout(id);
